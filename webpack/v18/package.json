@@ -4,8 +4,7 @@
 	"description": "",
 	"private": true,
 	"scripts": {
-		"build:prod": "webpack --config webpack.config.js",
-		"build:dev": "webpack --config webpack.config.dev.js"
+		"build": "webpack --config webpack.config.js"
 	},
 	"keywords": [],
 	"author": "",
@@ -13,12 +12,16 @@
 	"devDependencies": {
 		"@types/lodash-es": "^4.17.12",
 		"@types/node": "^24.0.3",
+		"@types/react": "^19.1.8",
+		"@types/react-dom": "^19.1.6",
 		"ts-loader": "^9.5.2",
 		"typescript": "^5.8.3",
 		"webpack": "^5.99.9",
 		"webpack-cli": "^6.0.1"
 	},
 	"dependencies": {
-		"lodash-es": "^4.17.21"
+		"lodash-es": "^4.17.21",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
 	}
 }
