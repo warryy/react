@@ -1,13 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-const App = () => (
-  <div>
-    <p>
-      <span>ReactV18</span>
-    </p>
-  </div>
-);
+import { App } from "@/app";
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 console.log(root);
