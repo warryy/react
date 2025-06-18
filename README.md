@@ -1,3 +1,2 @@
 ## learn react
-### version-18
-从18开始
+### [v18](https://18.react.dev/)
